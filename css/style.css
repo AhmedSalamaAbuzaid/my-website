@@ -142,7 +142,7 @@ b{
     width: 100px;
     border-radius: 50%;
     left: 50%;
-    top: 5%;
+    top: -13%;
     background: linear-gradient(45deg, #7f00ff, pink);
     animation: object2 6s linear infinite;
 }
