@@ -100,9 +100,9 @@ b{
         margin-right: 44px
     }
     .container{
-        width: 250px;
+        width: 400px;
         margin: auto;
-        height: 300px;
+        height: 100vh;
     }
     .links{
         width: 76px;
@@ -333,11 +333,13 @@ button:hover {
     }
     .cols {
         height: inherit;
+        width: 65%;
         
     }
     .cols.cols0{
         position: relative;
         top: -45px;
+        width: auto;
     }
     .cols.cols0 p{
         font-size: 7px;
@@ -346,14 +348,12 @@ button:hover {
         padding: 15px;
         margin-top: 56px;
         overflow: visible;
-        height: fit-content;
         top: 40px;
+        flex-direction: column;
     }
     .imgbox{
         position: relative;
-        width: 89%;
-        height: 100%;
-        right: -9px;
+        right: -44px;
         top: -75px;
     }
     .imgbox img{
@@ -365,16 +365,16 @@ button:hover {
         top: 0px;
         left: 0px;
         width: 100%;
-        transform: scale(1.8) rotate(.33turn);
+        transform: scale(1.8) rotate(.44turn);
         animation: animateSplash2 30s linear infinite;
     }
     @keyframes animateSplash2 {
         50%{
-            transform:scale(1.8) rotate(.55turn);
+            transform:scale(1.8) rotate(.66turn);
             
         }
         100%{
-            transform:scale(1.8) rotate(.33turn);
+            transform:scale(1.8) rotate(.44turn);
         }
     }
     .btns{
